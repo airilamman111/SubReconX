@@ -221,3 +221,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# SubReconX scan output (never commit results)
+output/
+*.json
+*.txt
+!requirements.txt
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
